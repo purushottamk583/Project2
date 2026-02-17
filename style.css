@@ -1,0 +1,14 @@
+.outer_box{
+    height: 350px;
+    width: 300px;
+    justify-content: center;
+    /*border: 5px solid black;*/
+    border-radius: 10px;
+    background: linear-gradient(blue , rgb(117, 117, 221), violet);
+    box-shadow: 10px 10px 20px black;
+    transition: 0.3s;
+}
+
+.outer_box:hover{
+    transform: scale(1.03);
+}
