@@ -7,8 +7,21 @@
     background: linear-gradient(blue , rgb(117, 117, 221), violet);
     box-shadow: 10px 10px 20px black;
     transition: 0.3s;
+    text-align: center;
 }
 
 .outer_box:hover{
     transform: scale(1.03);
+}
+
+#btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(221, 221, 230), rgb(233, 241, 209), rgb(204, 178, 64));
+    transition: 0.5s;
+}
+
+.outer_box.btn:hover{
+    transform: scale(1.05);
 }
