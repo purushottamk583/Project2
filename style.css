@@ -1,3 +1,9 @@
+body{
+    height: 100vh;
+    background: conic-gradient(rgb(188, 213, 214),rgb(62, 62, 146),rgb(182, 182, 103),rgb(233, 147, 48),rgb(188, 213, 214));
+}
+
+
 .outer_box{
     height: 350px;
     width: 300px;
@@ -6,12 +12,12 @@
     border-radius: 10px;
     background: linear-gradient(blue , rgb(117, 117, 221), violet);
     box-shadow: 10px 10px 20px black;
-    transition: 0.3s;
+    transition: 0.5s;
     text-align: center;
 }
 
 .outer_box:hover{
-    transform: scale(1.03);
+    transform: scale(1.015);
 }
 
 #btn{
